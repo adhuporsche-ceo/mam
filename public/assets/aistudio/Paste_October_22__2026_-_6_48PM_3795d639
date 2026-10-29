@@ -1,0 +1,734 @@
+# MASTER PROMPT: UPGRADE MY EXISTING DAA TEACHING WEBSITE TO A WORLD-CLASS ALGORITHM LEARNING PLATFORM
+
+## 1. ROLE AND EXPERTISE
+
+Act as a world-class team consisting of:
+
+- Principal Software Architect
+- Senior Full-Stack Developer
+- Google-level Product Engineer
+- Senior UI/UX Engineer
+- Design and Analysis of Algorithms (DAA) Professor
+- Algorithm Visualization Engineer
+- Data Structures and Algorithm Animation Specialist
+- Educational Technology Expert
+- Accessibility and Performance Engineer
+- Software Testing and Quality Assurance Engineer
+
+Your mission is to transform my EXISTING Design and Analysis of Algorithms (DAA) teaching website into a professional, highly interactive, comprehensive, and production-quality algorithm learning platform.
+
+The objective is to deliver a world-class educational experience comparable in engineering quality, usability, reliability, and learning effectiveness to leading technology products.
+
+IMPORTANT: Improve the existing website by ADDING FEATURES and improving its internal engineering quality. Do not rebuild the website from scratch unless absolutely necessary.
+
+## 2. ABSOLUTE RULE: PRESERVE MY EXISTING UI/UX
+
+This is the most important requirement.
+
+Before modifying any code, inspect my complete existing project, including its source files, components, stylesheets, routing, assets, animations, and existing features.
+
+You MUST preserve:
+
+1. Existing primary and secondary colors.
+2. Existing background colors and gradients.
+3. Existing typography and font styles.
+4. Existing navbar, sidebar, header, and footer.
+5. Existing page layouts, spacing, margins, and padding.
+6. Existing cards, buttons, borders, shadows, and border radii.
+7. Existing animations, transitions, and hover effects.
+8. Existing responsive behavior.
+9. Existing branding, website name, logos, and identity.
+10. Existing user navigation and interaction patterns.
+
+DO NOT:
+- Redesign the website.
+- Change the color palette.
+- Introduce an entirely new design system.
+- Replace the existing interface with a generic template.
+- Remove existing components simply because you prefer another design.
+- change the existing layout to accommodate a new feature when an integrated solution is possible.
+- Add unnecessary visual clutter, excessive gradients, oversized cards, or decorative elements.
+- Break existing routes, components, or functionality.
+- Replace working features with mock implementations.
+
+Treat my current website as the approved design system.
+
+All new features must inherit the existing design tokens, components, typography, spacing, and interaction patterns.
+
+If an existing component can be extended, extend it rather than creating a competing replacement.
+
+If a feature requires a new component, design it so that it looks native to the current website.
+
+## 3. FIRST PHASE: AUDIT THE EXISTING PROJECT
+
+Before writing or modifying code, conduct a comprehensive technical and educational audit.
+
+Inspect:
+
+- Project folder structure.
+- Frontend framework and dependencies.
+- Backend architecture, if present.
+- Existing pages and routes.
+- Existing DAA topics and algorithms.
+- Current visualizations and animations.
+- Existing search, navigation, and filtering.
+- Existing quiz and assessment features.
+- Current data models and storage.
+- Mobile and tablet compatibility.
+- Error handling and accessibility.
+- Performance bottlenecks.
+- Duplicate components and unnecessary code.
+- Missing functionality and incomplete implementations.
+- Buttons and controls that do not perform their intended actions.
+- Broken links, empty pages, placeholder content, and console errors.
+
+Create an internal feature inventory containing:
+
+| Area | Required action |
+| Existing functionality | Preserve and test |
+| Missing functionality | Add |
+| Incomplete functionality | Complete |
+| Incorrect implementation | Correct |
+| Performance issue | Optimize |
+| UI/UX | Preserve |
+| New feature design | Match the current UI |
+
+Do not assume a feature exists simply because a button or navigation item is visible.
+
+Verify that every feature actually works.
+
+After the audit, implement the improvements in the existing architecture.
+
+## 4. BUILD A COMPLETE DAA LEARNING ECOSYSTEM
+
+Transform the website from a basic teaching website into an interactive learning environment covering the complete Design and Analysis of Algorithms curriculum.
+
+Organize the learning experience around these categories:
+
+### A. Algorithm Fundamentals
+- What is an algorithm?
+- Characteristics of algorithms.
+- Algorithm design and problem-solving.
+- Pseudocode and flowcharts.
+- Input size and basic operation counting.
+- Best-case, average-case, and worst-case analysis.
+- Time complexity and space complexity.
+- Asymptotic notation: Big O, Big Omega, and Big Theta.
+- Mathematical analysis of iterative and recursive algorithms.
+- Recurrence relations and recurrence solving.
+- Master Theorem.
+- Tractable and intractable problems.
+- Polynomial and exponential complexity.
+- P, NP, NP-hard, and NP-complete.
+- Reductions and approximation concepts.
+
+### B. Algorithm Design Techniques
+- Brute force.
+- Divide and conquer.
+- Decrease and conquer.
+- Transform and conquer.
+- Greedy algorithms.
+- Dynamic programming.
+- Backtracking.
+- Branch and bound.
+- Randomized algorithms.
+- Approximation algorithms.
+
+### C. Sorting and Searching
+- Linear search.
+- Binary search.
+- Bubble sort.
+- Selection sort.
+- Insertion sort.
+- Merge sort.
+- Quick sort.
+- Heap sort.
+- Counting sort.
+- Radix sort.
+- Bucket sort.
+
+### D. Graph Algorithms
+- Graph representations.
+- Breadth-First Search.
+- Depth-First Search.
+- Topological sorting.
+- Connected components.
+- Minimum spanning trees.
+- Prim's algorithm.
+- Kruskal's algorithm.
+- Dijkstra's algorithm.
+- Bellman-Ford algorithm.
+- Floyd-Warshall algorithm.
+- Transitive closure.
+- Strongly connected components.
+- Network flow and maximum flow.
+- Ford-Fulkerson and Edmonds-Karp.
+
+### E. Dynamic Programming
+- Optimal substructure.
+- Overlapping subproblems.
+- Memoization versus tabulation.
+- Fibonacci sequence.
+- 0/1 Knapsack.
+- Fractional Knapsack comparison.
+- Matrix Chain Multiplication.
+- Longest Common Subsequence.
+- Longest Increasing Subsequence.
+- Coin change.
+- Rod cutting.
+- Optimal binary search trees.
+- Floyd-Warshall.
+- Multistage graphs.
+
+### F. Greedy Algorithms
+- Greedy-choice property.
+- Activity selection.
+- Fractional Knapsack.
+- Job sequencing with deadlines.
+- Huffman coding.
+- Prim's algorithm.
+- Kruskal's algorithm.
+- Dijkstra's algorithm and its limitations.
+
+### G. Backtracking and Branch and Bound
+- State-space trees.
+- N-Queens.
+- Sum of subsets.
+- Graph coloring.
+- Hamiltonian cycles.
+- Travelling Salesperson Problem.
+- Branch-and-bound strategies.
+- FIFO, LIFO, and least-cost approaches where applicable.
+
+### H. Computational Complexity
+- Complexity classes.
+- Polynomial-time reductions.
+- NP verification.
+- NP-hardness.
+- NP-completeness.
+- SAT and 3-SAT.
+- Clique, vertex cover, and related problems.
+- Approximation ratios.
+- Intractability and practical algorithm selection.
+
+For every topic, distinguish required syllabus content from optional advanced material. Make topics configurable rather than inventing unsupported claims about the official syllabus.
+
+## 5. INTERACTIVE ALGORITHM VISUALIZATION ENGINE
+
+Create a robust visualization system that lets students observe algorithms executing step by step.
+
+Every suitable visualization should support:
+
+- Play.
+- Pause.
+- Resume.
+- Reset.
+- Previous step.
+- Next step.
+- Adjustable animation speed.
+- Step-by-step execution.
+- Input modification.
+- Random input generation.
+- Custom input.
+- Current execution state.
+- Highlighting of active elements.
+- Comparison of algorithm states.
+- Clear completion and error states.
+
+Where relevant, display:
+
+- Current iteration.
+- Current indices.
+- Comparisons.
+- Swaps.
+- Assignments.
+- Recursive calls.
+- Stack state.
+- Queue state.
+- Heap state.
+- Graph traversal order.
+- Selected vertices and edges.
+- Dynamic programming tables.
+- State-space trees.
+- Branch pruning.
+- Total operation counters.
+
+Visualization requirements:
+
+1. Use real algorithm execution state, not prerecorded animations pretending to execute code.
+2. Keep the visualization synchronized with the algorithm's actual logic.
+3. Handle empty inputs, duplicate values, negative values where supported, and invalid inputs.
+4. Explain each significant step in simple language.
+5. Provide pseudocode highlighting synchronized with execution.
+6. Display the relevant complexity information.
+7. Allow users to reset and explore alternative inputs.
+8. Ensure the animation remains understandable on mobile screens.
+9. Do not claim that every possible algorithm can be visualized identically; use an appropriate visualization model for each algorithm family.
+
+## 6. CODE EXECUTION AND PSEUDOCODE EXPLORER
+
+For every supported algorithm, provide a learning interface containing:
+
+- Problem statement.
+- Intuition.
+- Step-by-step approach.
+- Pseudocode.
+- Code examples in C++, Python, and Java where implemented.
+- Time complexity.
+- Auxiliary space complexity.
+- Best, average, and worst cases when meaningful.
+- Example input and output.
+- Dry-run table.
+- Common mistakes.
+- Edge cases.
+- Practical applications.
+- Related algorithms.
+
+Add synchronized code tracing where possible.
+
+When a student advances through a visualization, highlight the corresponding pseudocode line and update the execution state.
+
+If code execution is supported, use a safe execution environment with appropriate resource limits and input validation. Never execute arbitrary student code directly on the production server without isolation.
+
+Do not display fake compiler output or claim code was tested when it was not.
+
+## 7. COMPLEXITY ANALYSIS LAB
+
+Add an interactive complexity analysis workspace.
+
+Features:
+
+- Analyze loops and nested loops.
+- Explain logarithmic loops.
+- Explain recursive algorithms.
+- Generate recurrence relations.
+- Solve supported recurrences step by step.
+- Compare asymptotic growth rates.
+- Plot growth curves.
+- Compare algorithm performance as input size increases.
+- Explain dominant terms.
+- Show why constants and lower-order terms are omitted asymptotically.
+- Demonstrate best, average, and worst cases.
+- Compare theoretical complexity with measured execution time when benchmarking is available.
+
+Include growth classes such as:
+
+O(1), O(log n), O(n), O(n log n), O(n²), O(n³), O(2ⁿ), and O(n!).
+
+Clearly distinguish theoretical complexity from measured runtime. Do not infer complexity solely from one runtime measurement.
+
+## 8. DYNAMIC PROGRAMMING TABLE VISUALIZER
+
+Build a specialized interactive workspace for dynamic programming.
+
+For each supported problem, show:
+
+- State definition.
+- Recurrence relation.
+- Base cases.
+- Transition explanation.
+- Table initialization.
+- Cell-by-cell computation.
+- Selected previous states.
+- Final answer.
+- Backtracking to reconstruct the solution when applicable.
+- Time and space complexity.
+
+For 0/1 Knapsack, Matrix Chain Multiplication, and Longest Common Subsequence, include fully traceable table-filling animations.
+
+Let students modify input values and observe how the table changes.
+
+For Matrix Chain Multiplication, display the split choices and optimal parenthesization.
+
+For 0/1 Knapsack, distinguish the selected items from the items that were excluded.
+
+For LCS, show the matching decisions and reconstruct the subsequence.
+
+Validate the recurrence and the output against known test cases.
+
+## 9. GRAPH AND STATE-SPACE VISUALIZATION
+
+Implement interactive graph editing and algorithm execution.
+
+Students should be able to:
+
+- Add or remove vertices.
+- Add or remove edges.
+- Set edge weights.
+- Select directed or undirected graphs.
+- Generate sample graphs.
+- Run supported graph algorithms.
+- Observe traversal order.
+- Track distances and predecessors.
+- View visited and unvisited vertices.
+- Inspect priority queues when relevant.
+- Observe minimum spanning tree construction.
+- Detect unreachable vertices.
+- Explore negative-weight edge behavior where supported.
+
+For backtracking and branch-and-bound algorithms, visualize the state-space tree, valid choices, rejected branches, and pruning decisions.
+
+Ensure graph edits are reflected in the actual algorithm input.
+
+## 10. LEARNING MODE: TEACH LIKE AN EXCELLENT PROFESSOR
+
+Create a consistent instructional structure for every algorithm.
+
+Each lesson should contain:
+
+1. Definition — at least 25 words.
+2. Why the algorithm is needed.
+3. Simple real-world analogy.
+4. Practical real-world scenario.
+5. Problem statement.
+6. Step-by-step solution.
+7. Pseudocode.
+8. Dry-run table.
+9. Interactive visualization.
+10. Time complexity.
+11. Space complexity.
+12. Correctness explanation.
+13. Advantages and limitations.
+14. Common student mistakes.
+15. Exam-oriented questions.
+16. Practice problems.
+17. Short assessment.
+18. Related concepts and prerequisites.
+
+For real-world examples, explain the exact scenario, the input, the algorithm's actions, and the output.
+
+Examples should be technically correct. Do not force an inappropriate real-world analogy onto an algorithm.
+
+Provide multiple explanation levels:
+
+- Beginner: simple language and visual explanations.
+- Intermediate: detailed dry runs and implementation.
+- Advanced: correctness proofs, complexity analysis, and optimizations.
+- Exam preparation: concise definitions, important steps, and answer structures.
+
+## 11. PERSONALIZED PRACTICE AND ASSESSMENT
+
+Add a practice system that includes:
+
+- Topic-wise MCQs.
+- Output-prediction questions.
+- Dry-run exercises.
+- Complexity-analysis questions.
+- Pseudocode completion.
+- Find-the-bug exercises.
+- Algorithm selection challenges.
+- Coding exercises.
+- Edge-case challenges.
+- Mixed-topic tests.
+- Timed mock exams.
+- Difficulty levels.
+- Hints.
+- Detailed explanations after answering.
+- Score tracking and progress indicators.
+
+The platform must explain why an answer is correct or incorrect.
+
+Do not reveal answers prematurely in assessment modes where they are intended to remain hidden.
+
+If user accounts and persistent storage exist, integrate progress with the existing system. Otherwise, add persistence only through an appropriate, privacy-conscious architecture.
+
+## 12. ALGORITHM COMPARISON LAB
+
+Allow students to compare algorithms that solve similar problems.
+
+Examples:
+
+- Linear Search versus Binary Search.
+- Merge Sort versus Quick Sort.
+- BFS versus DFS.
+- Prim versus Kruskal.
+- Dijkstra versus Bellman-Ford.
+- Greedy versus Dynamic Programming.
+- Memoization versus Tabulation.
+- Backtracking versus Branch and Bound.
+
+Compare:
+
+- Problem requirements.
+- Core strategy.
+- Input constraints.
+- Correctness assumptions.
+- Time complexity.
+- Space complexity.
+- Practical strengths.
+- Limitations.
+- Execution steps.
+- Measured operations when available.
+
+Clearly explain important restrictions. For example, ordinary Binary Search requires appropriately ordered data, and Dijkstra's algorithm does not generally support graphs with negative-weight edges.
+
+## 13. SEARCH, DISCOVERY, AND NAVIGATION
+
+Upgrade content discovery without changing the existing navigation design.
+
+Add or improve:
+
+- Search by algorithm name.
+- Search by topic or concept.
+- Search by complexity.
+- Search by design technique.
+- Search by syllabus keyword.
+- Related-topic suggestions.
+- Recently viewed lessons.
+- Bookmarks and favourites.
+- Prerequisite navigation.
+- Continue-learning functionality.
+- Topic completion indicators.
+
+Search results should be accurate and lead to real existing pages.
+
+Use the existing design's conventions for search fields, result lists, icons, and navigation.
+
+## 14. STUDENT PROGRESS DASHBOARD
+
+Integrate a useful progress dashboard into the existing website.
+
+Where the architecture supports it, include:
+
+- Completed topics.
+- Topics in progress.
+- Quiz scores.
+- Practice accuracy.
+- Weak concepts.
+- Revision recommendations.
+- Bookmarked algorithms.
+- Learning streaks, if appropriate.
+- Time spent learning, where reliably measurable.
+- Recommended next lessons.
+
+Recommendations must be based on actual recorded activity rather than invented progress.
+
+Keep the dashboard visually consistent with the existing interface.
+
+## 15. EXAM PREPARATION MODE
+
+Create a dedicated learning workflow for DAA examinations.
+
+Support:
+
+- 2-mark questions.
+- 5-mark questions.
+- 7-mark questions.
+- 14-mark questions.
+- 20-mark questions where applicable.
+- Important definitions.
+- Algorithm-writing practice.
+- Numerical problem solving.
+- Recurrence-solving practice.
+- Complexity-analysis exercises.
+- Dry-run tables.
+- Correctness proofs.
+- Previous-question-paper integration when actual papers are provided.
+- Timed revision sessions.
+
+Generate structured answers appropriate to the selected question type.
+
+Do not fabricate official previous-year questions or claim a question appeared in a particular examination unless verified.
+
+## 16. AI TEACHING ASSISTANT — OPTIONAL MODULE
+
+If an AI integration is available or can be safely added, implement a DAA-specific teaching assistant.
+
+It should:
+
+- Answer questions about algorithms.
+- Explain code line by line.
+- Generate worked examples.
+- Help students identify mistakes.
+- Explain complexity.
+- Suggest related topics.
+- Provide hints before complete solutions.
+- Adapt explanations to the selected learning level.
+- Refer to the website's verified lesson content.
+
+Use a configured, secure backend for AI integrations. Keep API keys out of frontend code.
+
+If no AI provider is configured, do not display a nonfunctional AI chat interface. Keep the rest of the website fully usable.
+
+AI-generated explanations must not override validated algorithm implementations or present uncertain claims as facts.
+
+## 17. TECHNICAL ARCHITECTURE AND CODE QUALITY
+
+Preserve my existing technology stack unless a genuine technical limitation requires a change.
+
+Follow these engineering principles:
+
+- Reusable components.
+- Clear separation of presentation and algorithm logic.
+- Modular algorithm implementations.
+- Strong input validation.
+- Consistent error handling.
+- Accessible controls.
+- Responsive layouts.
+- Efficient state management.
+- Avoidance of unnecessary dependencies.
+- No duplicated business logic.
+- No hardcoded fake user progress.
+- No broken imports.
+- No unused or dead navigation links.
+- No exposed secrets.
+- No destructive database changes without approval.
+
+Create reusable interfaces for algorithm execution, step generation, pseudocode mapping, complexity metadata, and visualization rendering wherever practical.
+
+Use TypeScript if the existing project already uses it or if it can be introduced without disrupting the architecture.
+
+Keep algorithms deterministic where appropriate so that their visualizations and tests are reproducible.
+
+## 18. PERFORMANCE, ACCESSIBILITY, AND RELIABILITY
+
+Optimize the website for a smooth educational experience.
+
+Requirements:
+
+- Responsive desktop, tablet, and mobile support.
+- Smooth but controlled animations.
+- No unnecessary rerenders.
+- Efficient visualization updates.
+- Lazy loading for suitable heavy components.
+- Clear loading, empty, success, and error states.
+- Keyboard-accessible controls.
+- Visible focus indicators consistent with the existing theme.
+- Appropriate semantic HTML and ARIA attributes.
+- Readable contrast using the existing palette.
+- Reduced-motion support.
+- Helpful validation messages.
+- Stable navigation.
+- No unexpected horizontal scrolling.
+- No unhandled runtime errors.
+
+Do not sacrifice accessibility or algorithm correctness for animation effects.
+
+## 19. TESTING AND VALIDATION
+
+For every implemented feature:
+
+1. Test the expected input.
+2. Test empty input.
+3. Test invalid input.
+4. Test boundary conditions.
+5. Test duplicate values where applicable.
+6. Test negative values where supported.
+7. Test disconnected graphs where applicable.
+8. Test algorithm correctness against known outputs.
+9. Test visualization state synchronization.
+10. Test reset and repeated execution.
+11. Test mobile responsiveness.
+12. Test navigation and existing functionality.
+13. Check the browser console and server logs.
+14. Test any modified API endpoints.
+15. Confirm that existing features still work.
+
+Add automated unit tests for algorithm implementations and integration tests for important user workflows when the project's test setup permits.
+
+Do not claim that a test passed unless it was actually executed successfully.
+
+## 20. IMPLEMENTATION WORKFLOW
+
+Follow this sequence:
+
+PHASE 1 — DISCOVER
+Inspect the existing project, technology stack, components, routes, design tokens, and current features.
+
+PHASE 2 — AUDIT
+Identify missing, incomplete, broken, duplicated, and improvable functionality.
+
+PHASE 3 — PLAN
+Prepare a prioritized implementation plan. Separate critical fixes, high-value educational features, and advanced optional modules.
+
+PHASE 4 — PRESERVE
+Record the existing visual design and establish explicit safeguards against unwanted UI/UX changes.
+
+PHASE 5 — IMPLEMENT
+Add features incrementally using the existing architecture and design system.
+
+PHASE 6 — VERIFY
+Run available tests, build commands, and application checks. Fix errors introduced by your changes.
+
+PHASE 7 — REGRESSION TEST
+Verify existing pages, routes, styling, navigation, and interactions.
+
+PHASE 8 — REPORT
+Provide a concise implementation report listing:
+- Features added.
+- Features improved.
+- Files created.
+- Files modified.
+- Dependencies added, if any.
+- Tests actually performed.
+- Known limitations.
+- Any configuration or manual steps still required.
+
+Do not stop after generating a plan. Implement the changes in the available development environment wherever access permits.
+
+If a task requires unavailable credentials, services, files, or configuration, explain the specific blocker rather than fabricating a completed implementation.
+
+## 21. PRIORITY ORDER
+
+Implement in this order:
+
+Priority 1:
+- Preserve the UI/UX.
+- Fix existing broken functionality.
+- Ensure all existing routes and components work.
+- Verify algorithm correctness.
+
+Priority 2:
+- Step-by-step algorithm visualization.
+- Synchronized pseudocode and execution.
+- Interactive dry-run tables.
+- Complexity analysis.
+- Dynamic programming table visualizations.
+- Graph algorithm visualizations.
+
+Priority 3:
+- Topic search and discovery.
+- Algorithm comparison.
+- Practice exercises and quizzes.
+- Exam preparation.
+- Bookmarks and progress tracking.
+
+Priority 4:
+- Personalized recommendations.
+- Advanced complexity analysis.
+- Optional AI teaching assistant.
+- Additional advanced visualizations and learning analytics.
+
+Deliver features incrementally. Do not create a large collection of nonfunctional buttons or placeholder screens merely to make the website appear feature-rich.
+
+## 22. FINAL ACCEPTANCE CRITERIA
+
+The completed website must satisfy these conditions:
+
+- My original colors are unchanged.
+- My original UI/UX is preserved.
+- My original branding and layout remain recognizable.
+- Existing working features continue to work.
+- New features are integrated into the existing design.
+- Algorithm results are correct and testable.
+- Visualizations represent actual algorithm execution.
+- Lessons contain accurate explanations and examples.
+- Search and navigation lead to real content.
+- Interactive controls perform their intended actions.
+- The website works across screen sizes.
+- No unnecessary redesign has occurred.
+- No fake functionality has been introduced.
+- The codebase remains maintainable and extensible.
+- The application builds and runs successfully in the available environment, or any remaining blocker is explicitly documented.
+
+## FINAL INSTRUCTION
+
+First inspect my existing project and understand how the current website works.
+
+Then upgrade it into a professional, comprehensive, interactive Design and Analysis of Algorithms teaching platform.
+
+Think like an experienced product architect building an educational product for long-term use, not a developer merely adding decorative components.
+
+**PRESERVE THE DESIGN. EXPAND THE CAPABILITIES. IMPROVE THE LEARNING EXPERIENCE. VERIFY THE RESULTS.**
+
+Do not change the existing colors, UI, UX, branding, or layout. Focus on adding genuinely useful features, accurate algorithm teaching, interactivity, performance, accessibility, and engineering quality.

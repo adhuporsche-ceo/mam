@@ -1,0 +1,352 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* ========================================================================= */
+/* ANIMATIC & CARTOON MOTION DESIGN KEYFRAMES                                */
+/* ========================================================================= */
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1.2deg);
+  }
+}
+
+@keyframes floatBob {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-5px) scale(1.02);
+  }
+}
+
+@keyframes cartoonSquish {
+  0% {
+    transform: scale(1, 1);
+  }
+  30% {
+    transform: scale(1.15, 0.85);
+  }
+  55% {
+    transform: scale(0.92, 1.08);
+  }
+  75% {
+    transform: scale(1.04, 0.96);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes cartoonWiggle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-6deg);
+  }
+  40% {
+    transform: rotate(6deg);
+  }
+  60% {
+    transform: rotate(-3deg);
+  }
+  80% {
+    transform: rotate(3deg);
+  }
+}
+
+@keyframes featherFan {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.04) rotate(1.5deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(123, 66, 246, 0.4), 0 0 15px rgba(123, 66, 246, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(123, 66, 246, 0), 0 0 25px rgba(123, 66, 246, 0.4);
+  }
+}
+
+@keyframes pulseGlowGold {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(245, 184, 0, 0.4), 0 0 15px rgba(245, 184, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(245, 184, 0, 0), 0 0 25px rgba(245, 184, 0, 0.45);
+  }
+}
+
+@keyframes pulseGlowEmerald {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4), 0 0 15px rgba(16, 185, 129, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(16, 185, 129, 0), 0 0 25px rgba(16, 185, 129, 0.45);
+  }
+}
+
+@keyframes shimmerSweep {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes sparkPop {
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.3) rotate(90deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes bubblePop {
+  0% {
+    transform: scale(0.88);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes eyeTwinkle {
+  0%, 90%, 100% {
+    opacity: 0.2;
+    transform: scale(0.6);
+  }
+  95% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes equalizerBar {
+  0%, 100% {
+    height: 4px;
+  }
+  50% {
+    height: 18px;
+  }
+}
+
+@keyframes arcBridgeFlow {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes filmroomGlow {
+  0%, 100% {
+    opacity: 0.45;
+    transform: translate3d(-2%, 0, 0) scale(0.98);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translate3d(2%, -1%, 0) scale(1.03);
+  }
+}
+
+@keyframes filmroomSweep {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(220%);
+  }
+}
+
+@keyframes labBootProgress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes labBootDot {
+  0%, 60%, 100% {
+    transform: translateY(0) scale(0.75);
+    opacity: 0.45;
+  }
+  30% {
+    transform: translateY(-10px) scale(1.1);
+    opacity: 1;
+  }
+}
+
+.lab-boot-screen {
+  background:
+    radial-gradient(ellipse at 50% 46%, rgba(255, 253, 247, 0.98) 0%, rgba(250, 243, 231, 0.98) 48%, transparent 76%),
+    #f5e9dd;
+  color: #41251f;
+}
+
+.lab-boot-orb {
+  position: absolute;
+  width: min(56vw, 820px);
+  aspect-ratio: 1;
+  border-radius: 48%;
+  background: linear-gradient(140deg, rgba(226, 164, 148, 0.58), rgba(214, 137, 117, 0.3));
+  filter: blur(1px);
+  pointer-events: none;
+}
+
+.lab-boot-orb-left {
+  top: -54%;
+  left: -26%;
+  transform: rotate(28deg) scale(1.2, 0.66);
+}
+
+.lab-boot-orb-right {
+  right: -34%;
+  bottom: -62%;
+  transform: rotate(-28deg) scale(1.3, 0.7);
+}
+
+.lab-boot-emblem {
+  border: 7px solid #d5a85c;
+  background: linear-gradient(145deg, #f8df9b, #b78535);
+  box-shadow: 0 16px 55px rgba(151, 85, 65, 0.22), inset 0 0 0 2px rgba(255, 249, 218, 0.8);
+}
+
+.lab-boot-progress {
+  animation: labBootProgress 2s linear forwards;
+}
+
+.lab-boot-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #c97965;
+  box-shadow: 0 0 16px rgba(201, 121, 101, 0.48);
+  animation: labBootDot 0.9s ease-in-out infinite;
+}
+
+.lab-boot-dot:nth-child(even) {
+  background: #d7a45e;
+}
+
+.cinematic-stage::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 12% 0%, rgba(139, 92, 246, 0.08), transparent 38%),
+    radial-gradient(ellipse at 88% 8%, rgba(16, 185, 129, 0.07), transparent 32%);
+  content: "";
+  animation: filmroomGlow 9s ease-in-out infinite;
+}
+
+.cinematic-stage::after {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 18%;
+  background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.045), transparent);
+  content: "";
+  pointer-events: none;
+  animation: filmroomSweep 12s ease-in-out infinite;
+}
+
+.cinematic-stage-calm::before,
+.cinematic-stage-calm::after {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cinematic-stage::before,
+  .cinematic-stage::after {
+    animation: none;
+  }
+}
+
+/* Utility Animation Classes */
+.animate-float-slow {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+.animate-float-bob {
+  animation: floatBob 2.4s ease-in-out infinite;
+}
+
+.animate-squish {
+  animation: cartoonSquish 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.animate-wiggle {
+  animation: cartoonWiggle 0.6s ease-in-out;
+}
+
+.animate-feather-fan {
+  animation: featherFan 3.6s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.2s infinite;
+}
+
+.animate-pulse-glow-gold {
+  animation: pulseGlowGold 2s infinite;
+}
+
+.animate-pulse-glow-emerald {
+  animation: pulseGlowEmerald 2s infinite;
+}
+
+.animate-spark-pop {
+  animation: sparkPop 0.8s ease-out forwards;
+}
+
+.animate-bubble-pop {
+  animation: bubblePop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.animate-eye-twinkle {
+  animation: eyeTwinkle 2.8s infinite;
+}
+
+.animate-shimmer-sweep {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmerSweep 3s infinite;
+}
